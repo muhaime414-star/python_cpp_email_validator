@@ -8,7 +8,7 @@ class Email_Validator:
 
     def validate(self, email: str) -> bool:
         if email == "" or len(email) > 254:
-            return False
+            return False, "Failed: Length exceeds 254 characters or is empty."
 
         if email.count('@') != 1: 
             return False
@@ -44,7 +44,7 @@ class Email_Validator:
         if '.' not in domain_part:
             return False
 
-        return True
+        return True, "Valid email format."
 
 
 if __name__ == "__main__":
