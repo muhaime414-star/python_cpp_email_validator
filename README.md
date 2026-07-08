@@ -1,4 +1,4 @@
-## ⚖️ Comparison: Python vs. C++ Implementation
+## ⚖️   Comparison: Python vs. C++ Implementation
 
 This repository features two distinct implementations of the exact same RFC-inspired validation logic. Building both allows for direct cross-validation, ensuring accuracy while providing tools suited for different operational environments.
 
